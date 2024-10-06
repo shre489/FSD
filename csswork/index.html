@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <p class="hidden">paragraph1</p>
+    <p class="hidden">paragraph2</p>
+    <p class="hidden">paragraph3</p>
+    <p class="hidden">paragraph4</p>
+    <p class="hidden">paragraph5</p>
+  </div>
+  
+  <script>
+    document.querySelectorAll('.hidden').forEach(p => p.textContent = '');
+  </script>
+</body>
+</html>
