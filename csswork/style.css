@@ -21,13 +21,44 @@ div{
 
 
 }*/
-
-div > p {
-    background-color: yellow;
-    margin: 10px 0; 
+/*.myparagraph{
+    background-color: blue;
 }
+#myid{
+    background-color: brown;
+}*/
 
-.hidden {
+.container{
+    background-color:palevioletred;
+    height:400px;
+    width: 100%;
+    border:2px solid red;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.child1,.child2,.child3{
+
+    height:200px;
+    border:1px dotted blue;
+    width:300px;
+    /*display: inline-block;
+    padding:20px;
+    margin:20px;*/
+    display:flex;
     
-    height: 20px; 
 }
+.child1{
+    background-color: yellow;
+}
+.child2{
+    background-color:blue;
+    flex-basis: 50%;
+}
+.child3{
+    background-color: chartreuse;
+}
+
+
+
