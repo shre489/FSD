@@ -28,37 +28,38 @@ div{
     background-color: brown;
 }*/
 
-.container{
-    background-color:palevioletred;
-    height:400px;
+.container {
+    background-color: palevioletred;
+    height: 400px;
     width: 100%;
-    border:2px solid red;
+    border: 2px solid red;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Optional padding for the container */
 }
-.child1,.child2,.child3{
 
-    height:200px;
-    border:1px dotted blue;
-    width:300px;
-    /*display: inline-block;
-    padding:20px;
-    margin:20px;*/
-    display:flex;
-    
+.child1, .child2, .child3 {
+    height: 200px;
+    border: 1px dotted blue;
+    width: 300px; /* Fixed width for uniformity */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin: 10px; /* Add margin for spacing between elements */
 }
-.child1{
+
+.child1 {
     background-color: yellow;
 }
-.child2{
-    background-color:blue;
-    flex-basis: 50%;
+
+.child2 {
+    background-color: blue;
+    flex-basis: 50%; /* This will make it responsive */
 }
-.child3{
+
+.child3 {
     background-color: chartreuse;
 }
-
-
-

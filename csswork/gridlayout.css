@@ -1,0 +1,37 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 800px;
+    border: 2px solid red;
+    background-color: beige;
+}
+
+.row {
+    border: 1px solid gold;
+    height: 200px; /* You might want to adjust or remove this if using grid row heights */
+}
+
+.row1 {
+    grid-row: 1 / 2; /* From row 1 to row 2 */
+    grid-column: 3 / 4; /* From column 3 to column 4 */
+    background-color: brown;
+}
+
+.row2 {
+    grid-row: 2 / 3; /* Example for row 2 */
+    grid-column: 3 / 4; /* Adjust as needed */
+    background-color: lightgreen; /* Example color */
+}
+
+.row3 {
+    grid-row: 3 / 4; /* Example for row 3 */
+    grid-column: 3 / 4; /* Adjust as needed */
+    background-color: lightcoral; /* Example color */
+}
+
+/* You can add more row styles as needed */

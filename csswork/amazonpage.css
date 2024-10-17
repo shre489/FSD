@@ -1,0 +1,69 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px; /* Add gap for better spacing between elements */
+}
+
+.header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 13;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    border: 1px solid red; /* Consider removing for a cleaner look */
+}
+
+.navbar {
+    grid-row: 2 / 3;
+    grid-column: 2 / 13;
+    height: 60px;
+    background-color: rgb(12, 15, 17);
+    color: white;
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px; /* Consolidate padding */
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+ul li:hover {
+    background-color: aquamarine; /* Fixed selector for hover */
+}
+
+.wallpaper {
+    grid-row: 3 / 4; /* Adjusted to avoid overlap with header */
+    grid-column: 1 / 13;
+}
+
+.cards {
+    grid-row: 4 / 5;
+    grid-column: 1 / 13;
+    display: flex;
+    justify-content: space-around; /* Add spacing between cards */
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center; /* Center content */
+    align-items: center; /* Center content */
+}
+
+/* Removed duplicate card class definitions */
