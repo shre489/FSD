@@ -13,25 +13,25 @@ body {
 
 .row {
     border: 1px solid gold;
-    height: 200px; /* You might want to adjust or remove this if using grid row heights */
+    height: 200px; 
 }
 
 .row1 {
-    grid-row: 1 / 2; /* From row 1 to row 2 */
-    grid-column: 3 / 4; /* From column 3 to column 4 */
+    grid-row: 1 / 2; 
+    grid-column: 3 / 4; 
     background-color: brown;
 }
 
 .row2 {
-    grid-row: 2 / 3; /* Example for row 2 */
-    grid-column: 3 / 4; /* Adjust as needed */
-    background-color: lightgreen; /* Example color */
+    grid-row: 2 / 3; 
+    grid-column: 3 / 4; 
+    background-color: lightgreen; 
 }
 
 .row3 {
-    grid-row: 3 / 4; /* Example for row 3 */
-    grid-column: 3 / 4; /* Adjust as needed */
-    background-color: lightcoral; /* Example color */
+    grid-row: 3 / 4; 
+    grid-column: 3 / 4; 
+    background-color: lightcoral; 
 }
 
-/* You can add more row styles as needed */
+
